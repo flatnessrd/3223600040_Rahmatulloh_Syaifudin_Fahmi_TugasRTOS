@@ -1,6 +1,6 @@
 **Nama  :** Rahmatulloh Syaifudin Fahmi  
 **NRP   :** 3223600040
-**Kelas :** 3 - D4 Teknik Komputer B  
+**Kelas :** 3-D4 Teknik Komputer (B)
 
 ---
 
