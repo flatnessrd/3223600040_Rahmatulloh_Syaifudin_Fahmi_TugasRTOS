@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Deskripsi Tugas
+Deskripsi Tugas
 Tugas ini bertujuan untuk:
 1. **Menghubungkan semua peripheral ke ESP32.**  
 2. **Membuat program untuk setiap I/O (Input/Output) secara terpisah.**  
@@ -13,7 +13,7 @@ Tugas ini bertujuan untuk:
 
 ---
 
-## ⚙️ Daftar Peripheral yang Digunakan
+Daftar Peripheral yang Digunakan
 | No | Peripheral | Fungsi | Jenis I/O | Core yang Digunakan |
 |----|-------------|---------|------------|---------------------|
 | 1 | Oled | Menampilkan String atau nilai pembacaan | Output | Core 0 & Core 1 |
@@ -27,7 +27,7 @@ Tugas ini bertujuan untuk:
 
 ---
 
-## 🔌 Langkah Percobaan
+Langkah Percobaan
 
 ### 1. Persiapan Alat & Bahan
 - ESP32 DevKit
@@ -58,18 +58,18 @@ Berikut untuk wiring rangkaian: [Wiring rangkaian](https://drive.google.com/driv
 
 ---
 
-## 🎥 Dokumentasi Percobaan
-Video hasil percobaan terdapat pada link berikut: [Video hasil percobaan](https://drive.google.com/drive/folders/1GL3IrCreWmmQWdM-XVMECljDturs_isI?usp=sharing)
+Dokumentasi Percobaan
+Video hasil percobaan terdapat pada link berikut: [Video hasil percobaan](https://drive.google.com/drive/folders/1IE22MTU955ixrbhD_Bd9yZ4Kurcqvuv5?usp=sharing)
 
 ---
 
-## 🧵 Catatan Tambahan
+Catatan Tambahan
 - Semua task dijalankan menggunakan `xTaskCreatePinnedToCore()` untuk memanfaatkan dual-core ESP32.
 - Setiap I/O diatur agar tidak saling mengganggu proses di core lainnya.
 
 ---
 
-## 🏁 Kesimpulan
+Kesimpulan
 Pada beberapa percobaan yang telah saya lakukan, ESP32 berhasil mengoperasikan beberapa peripheral secara **paralel dan terdistribusi pada dua core**, menunjukkan kemampuan **real-time multitasking** yang efisien menggunakan **FreeRTOS**.
 
 ---
